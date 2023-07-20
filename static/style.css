@@ -1,0 +1,28 @@
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: cornflowerblue;
+    
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+}
+
+.slides{
+    position: relative;
+    
+}
+
+
+.add-btn{
+    box-shadow: 5px 15px 15px rgb(49, 49, 49);
+}

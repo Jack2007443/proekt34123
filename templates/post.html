@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>{{post[3]}}</title>
+{% endblock title %}
+
+{% block main %}
+<main class="container">
+    <div class="card m-2">
+        <img src="{{ url_for('static', filename='img/' + post[5]) }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{post[3]}}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
+          <p class="card-text">{{post[4] | safe}}</p>
+        </div>
+</main>
+{% endblock main %}
